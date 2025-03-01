@@ -1,0 +1,10 @@
+[package]
+name = "auth_lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jsonwebtoken = "9.2"
+serde = { version = "1", features = ["derive"] }
+argon2 = "0.5"
+rand_core = { version = "0.6", features = ["std"] }
